@@ -1,7 +1,7 @@
 :root {
     --base-size: 1em;
-    --cell-height: calc(var(--base-size) * 1.2);
-    --cell-width: calc(var(--base-size) * 7);
+    --cell-height: calc(var(--base-size) * 1.1);
+    --cell-width: calc(var(--base-size) * 8);
     font-size: var(--base-size);
     font-family: sans-serif;
 }
@@ -11,7 +11,7 @@
 }
 
 fieldset {
-    border: 1px dotted gray;
+    border: 1px dotted black;
     margin-bottom: var(--base-size);
     font-variant-caps: all-small-caps;
 }
@@ -24,7 +24,8 @@ input {
     margin-bottom: calc(var(--base-size) / 2);
 }
 
-button {
+.button {
+  border: 1px solid greenyellow;  
 
 }
 
@@ -38,7 +39,7 @@ button {
 }
 
 .column-headers .cell {
-    background: rgb(13, 34, 230);
+    background: lightslategray;
     font-weight: bold;
 }
 
@@ -55,13 +56,13 @@ button {
     word-wrap: hidden;
     overflow: hidden;
     outline: 1px solid black;
-    background: rgb(219, 126, 126);
+    background: lightcyan;
 }
 
 .row:hover .cell {
-    background: lightgray;
+    background: lightblue;
 }
 
 .row .cell:hover {
-    background: rgb(233, 14, 14);
+    background: rgb(31, 43, 216);
 }
