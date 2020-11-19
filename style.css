@@ -1,7 +1,7 @@
 :root {
     --base-size: 1em;
-    --cell-height: calc(var(--base-size) * 1.1);
-    --cell-width: calc(var(--base-size) * 8);
+    --cell-height: calc(var(--base-size) * 1.2);
+    --cell-width: calc(var(--base-size) * 9);
     font-size: var(--base-size);
     font-family: sans-serif;
 }
